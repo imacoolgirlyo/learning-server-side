@@ -4,12 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --inspect=0.0.0.0:9229 app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "ronin-database": "^0.1.1",
     "ronin-mocks": "^0.1.6",
     "ronin-server": "^0.1.3"
   }
